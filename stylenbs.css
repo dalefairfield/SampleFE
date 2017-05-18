@@ -22,22 +22,59 @@
   padding-top: 1.5%;
   margin-top: -.65%;
 }
+/*BEGIN VIDEO BOX*/
 #gif{
-  width:95%;
-  margin-left: 2.5%;
+  width:90%;
+  margin-left: 5%;
   margin-bottom: -.65%;
   /*margin-top: 2.5%;*/
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
 }
+.video-overlay h1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 10px;
+  padding: 5px 5px;
+  font-family: Helvetica;
+  color: #FFF;
+  background-color: rgba(50, 50, 50, 0.3);
+}
+.video-overlay p{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  /*margin: 10px;*/
+  padding: 5px 5px;
+  font-family: Helvetica;
+  color: #FFF;
+  background-color: rgba(50, 50, 50, 0.3);
+}
+/*END VIDEO BOX*/
 #imgBar{
-  width: 95%
-  margin-top: -1.65%;
-  margin-left: 2.75%;
+  width: 90%
+  margin-top: -1.3%;
+  margin-left: 5.3%;
 }
 #img{
-  width:32.6%;
+  width:31.7%;
   display: inline-block;
   margin-left: -.3%;
   margin-bottom: 1%;
+  margin-top: -1%;
+  position: relative;
+}
+.img__overlay{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  /*margin-top: -10%;*/
+  padding: 5px 5px;
+  font-family: Helvetica;
+  color: #FFF;
+  background-color: rgba(50, 50, 50, 0.3);
 }
 /*ENDS TOP ROW*/
 /*BEGIN SECOND ROW [PILLAR ROW]*/
@@ -95,6 +132,7 @@
   padding: .25%;
   width:95%;
   margin-left: 2.5%;
+  text-align: center;
 }
 .hiddentoplayer{
   display: none;
@@ -111,8 +149,8 @@
   padding: .25%;
   width:95%;
   margin-left: 2.5%;
+  text-align: center;
 }
-
 .hiddenmiddlelayer{
   display: none;
   padding: .25%;
@@ -128,6 +166,7 @@
   padding: .25%;
   width:95%;
   margin-left: 2.5%;
+  text-align: center;
   /*margin-bottom: -.7%;*/
 }
 .hiddenbottomlayer{
