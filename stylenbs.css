@@ -182,8 +182,25 @@
 }
 /*END MIDDLE [HAMBURGER] ROW*/
 /*BEGIN CAROUSEL ROW*/
-
-
+.carousel{
+  background-color: fuchsia;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.row{
+  width: 70%;
+  height: 36%;
+  margin-left: 15%;
+}
+.carousel-inner > .item > img {
+  width:100%;
+  height:36%;
+}
+.carousel-indicators{
+  padding-bottom: 2%;
+  /*height: 36%;*/
+  width: 64%
+}
 /*END CAROUSEL ROW*/
 /*BEGIN BOTTOM [SOCIAL FEED] ROW*/
 #bottomFeed{
