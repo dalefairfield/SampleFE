@@ -9,18 +9,66 @@
   height: 1%;
   width: 5%;
 }
-#menu{
+#dropdown{
   width: 10%;
   height: auto;
   float: right;
   display: inline-block;
   vertical-align: top;
+
+  /*background-color:green;*/
 }
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float:right;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 /*END HEADER DIV*/
 /*BEGIN TOP ROW [VIDEO ROW]*/
 #topOne{
   padding-top: 1.5%;
   margin-top: -.65%;
+  background-color:#1e092a;
 }
 /*BEGIN VIDEO BOX*/
 #gif{
@@ -31,6 +79,7 @@
   border: 1px solid black;
   display: inline-block;
   position: relative;
+  background-color:grey;
 }
 .video-overlay h1{
   position: absolute;
@@ -65,6 +114,7 @@
   margin-bottom: 1%;
   margin-top: -1%;
   position: relative;
+  /*background-color:fuchsia;*/
 }
 .img__overlay{
   position: absolute;
@@ -80,12 +130,22 @@
 /*BEGIN SECOND ROW [PILLAR ROW]*/
 #pillarBand{
   width: 100%;
+  background-color:green;
 }
+/*Pillar enlarge effect*/
 .img__wrap {
   position: relative;
   height: auto;
   width: 30%;
+  background-color:blue;
+  /*transition: all 0.4s ease;*/
 }
+/*.img__wrap:hover
+{
+    transform: scale(1.1);
+    margin-right: calc(2%);
+    margin-left: 2.5%;
+}*/
 .img__description {
   position: absolute;
   top: 0;
@@ -127,12 +187,14 @@
   width: 100%;
   position: relative;
   display: inline-block;
+  background-color:yellow;
 }
 .toplayer{
   padding: .25%;
   width:95%;
   margin-left: 2.5%;
   text-align: center;
+  background-color:navy;
 }
 .hiddentoplayer{
   display: none;
@@ -141,6 +203,7 @@
   margin-left: 2.5%;
   margin-top: -.65%;
   margin-bottom: -.7%;
+  background-color:red;
 }
 .toplayer:hover + .hiddentoplayer{
   display: block;
@@ -150,6 +213,7 @@
   width:95%;
   margin-left: 2.5%;
   text-align: center;
+  background-color:green;
 }
 .hiddenmiddlelayer{
   display: none;
@@ -158,6 +222,7 @@
   margin-left: 2.5%;
   margin-top: -.65%;
   margin-bottom: -.7%;
+  background-color:red;
 }
 .middlelayer:hover + .hiddenmiddlelayer{
   display: block;
@@ -168,6 +233,7 @@
   margin-left: 2.5%;
   text-align: center;
   /*margin-bottom: -.7%;*/
+  background-color:navy;
 }
 .hiddenbottomlayer{
   display: none;
@@ -176,6 +242,7 @@
   margin-left: 2.5%;
   margin-top: -.65%;
   /*margin-bottom: -.7%;*/
+  background-color:red;
 }
 .bottomlayer:hover + .hiddenbottomlayer{
   display: block;
@@ -203,42 +270,50 @@
 }
 /*END CAROUSEL ROW*/
 /*BEGIN BOTTOM [SOCIAL FEED] ROW*/
-#bottomFeed{
+/*#bottomFeed{
   padding-top: 1%;
   padding-bottom: 1%;
+  background-color:black;
 }
 #left{
   width: 21.5%;
   display: inline-block;
   vertical-align: top;
   margin-left: 2.5%;
+  background-color:skyblue;
 }
 #right{
   width: 72.75%;
   display: inline-block;
   margin-left: .5%;
   padding: .5%;
+  background-color:purple;
 }
 #panelTop{
   width: 100%;
+  background-color:white;
 }
 #leftnugget{
   width: 33%;
   display: inline-block;
+  background-color:lavender;
 }
 #centernugget{
   width: 33%;
   display: inline-block;
   margin-left: .1%;
   margin-right: .1%;
+  background-color:lavender;
 }
 #rightnugget{
   width: 33%;
   display: inline-block;
-}
+  background-color:lavender;
+}*/
 /*END BOTTOM [SOCIAL FEED] ROW*/
 /*BEGIN FOOTER DIV*/
 #footer{
   height:10%;
+  background-color:pink;
 }
 /*END FOOTER DIV*/
