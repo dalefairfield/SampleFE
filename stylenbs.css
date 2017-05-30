@@ -1,61 +1,68 @@
 /*BEGIN HEADER DIV*/
+#header{
+  background-color: #000000
+}
 #logo{
   width:100%;
   height: auto;
   display: inline-block;
   text-align: left;
+  background-color: #000000
 }
 #logo img{
   height: 1%;
   width: 5%;
 }
 #dropdown{
-  width: 10%;
+  width: 11%;
   height: auto;
   float: right;
   display: inline-block;
   vertical-align: top;
-
+  /*top: 0;
+  right: 0;*/
   /*background-color:green;*/
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    float:right;
+  width: 100%;
+  background-color: #89619d;
+  color: #170122;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+  /*float:right;*/
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+  background-color: #592a71;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Change color of dropdown links on hover */
@@ -68,7 +75,7 @@
 #topOne{
   padding-top: 1.5%;
   margin-top: -.65%;
-  background-color:#1e092a;
+  background-color:#170122;
 }
 /*BEGIN VIDEO BOX*/
 #gif{
@@ -123,21 +130,21 @@
   /*margin-top: -10%;*/
   padding: 5px 5px;
   font-family: Helvetica;
-  color: #FFF;
-  background-color: rgba(50, 50, 50, 0.3);
+  color: #ffffff;
+  background-color: rgba(144, 99, 207, 0.5);
 }
 /*ENDS TOP ROW*/
 /*BEGIN SECOND ROW [PILLAR ROW]*/
 #pillarBand{
   width: 100%;
-  background-color:green;
+  background-color:#310946;
 }
 /*Pillar enlarge effect*/
 .img__wrap {
   position: relative;
   height: auto;
   width: 30%;
-  background-color:blue;
+  background-color: #89619d;
   /*transition: all 0.4s ease;*/
 }
 /*.img__wrap:hover
@@ -152,10 +159,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;        /*text color*/
+  background: rgba(144, 99, 207, 0.5);
+  color: #ffffff;        /*text color*/
   visibility: hidden;
   opacity: 0;
+  padding: 1%;
 }
 .img__wrap:hover .img__description {
   visibility: visible;
@@ -187,14 +195,15 @@
   width: 100%;
   position: relative;
   display: inline-block;
-  background-color:yellow;
+  background-color:#170122;
 }
 .toplayer{
   padding: .25%;
   width:95%;
   margin-left: 2.5%;
   text-align: center;
-  background-color:navy;
+  background-color:#89619d;
+  color: #170122;
 }
 .hiddentoplayer{
   display: none;
@@ -203,7 +212,8 @@
   margin-left: 2.5%;
   margin-top: -.65%;
   margin-bottom: -.7%;
-  background-color:red;
+  background-color: #592a71;
+  color: #170122;
 }
 .toplayer:hover + .hiddentoplayer{
   display: block;
@@ -213,7 +223,8 @@
   width:95%;
   margin-left: 2.5%;
   text-align: center;
-  background-color:green;
+  background-color:310946;
+  color: #cebbd9
 }
 .hiddenmiddlelayer{
   display: none;
@@ -222,7 +233,8 @@
   margin-left: 2.5%;
   margin-top: -.65%;
   margin-bottom: -.7%;
-  background-color:red;
+  background-color: #592a71;
+  color: #170122;
 }
 .middlelayer:hover + .hiddenmiddlelayer{
   display: block;
@@ -233,7 +245,8 @@
   margin-left: 2.5%;
   text-align: center;
   /*margin-bottom: -.7%;*/
-  background-color:navy;
+  background-color:#89619d;
+  color: #170122;
 }
 .hiddenbottomlayer{
   display: none;
@@ -242,7 +255,8 @@
   margin-left: 2.5%;
   margin-top: -.65%;
   /*margin-bottom: -.7%;*/
-  background-color:red;
+  background-color: #592a71;
+  color: #170122;
 }
 .bottomlayer:hover + .hiddenbottomlayer{
   display: block;
@@ -250,7 +264,7 @@
 /*END MIDDLE [HAMBURGER] ROW*/
 /*BEGIN CAROUSEL ROW*/
 .carousel{
-  background-color: fuchsia;
+  background-color: #310946;
   padding-top: 1%;
   padding-bottom: 1%;
 }
@@ -314,6 +328,6 @@
 /*BEGIN FOOTER DIV*/
 #footer{
   height:10%;
-  background-color:pink;
+  background-color: #000000;
 }
 /*END FOOTER DIV*/
